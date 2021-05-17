@@ -1,5 +1,5 @@
 <template>
-  <section id="home">
+  <section id="home" class="it_testing17may">
      <h1 hidden>Capitools DIY and gardening tools 1</h1>
     <SfHero
       class="hero desktop-only"
