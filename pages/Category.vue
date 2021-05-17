@@ -1,6 +1,6 @@
 <template>
   <div id="category">
-    <h1 hidden>{{ this.getCategoryName() }}</h1>
+    <h1 hidden>{{ this.getCategoryName() }}<span class="itwork">&nbsp;</span></h1>
     <SfBreadcrumbs class="breadcrumbs desktop-only" :breadcrumbs="breadcrumbs">
       <template #link="{breadcrumb}">
         <router-link :to="breadcrumb.route.link" class="sf-breadcrumbs__breadcrumb">
